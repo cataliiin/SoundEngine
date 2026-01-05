@@ -275,15 +275,6 @@ Interfață user-friendly cu 3 taburi:
 - **Effects** - Gestionare lanț de efecte
 - **Configuration** - Configurare engine și I/O
 
-Funcții principale:
-- `_apply_configuration()` - Aplică setări
-- `_start_engine()` - Pornire procesare
-- `_stop_engine()` - Oprire procesare
-- `_add_effect()` - Adăugare efect
-- `_remove_effect()` - Ștergere efect
-- `_move_effect(direction)` - Reordonare efect
-- `_render_effect_params()` - Editor parametri
-
 ## Fluxul Procesării Audio
 
 ```
@@ -319,12 +310,6 @@ Toate componentele funcționează cu **numpy arrays** pentru performanță optim
 | **Distortion** | `amount` (0.0-1.0), `tone` (0.0-1.0) | Distorsiune/overdrive cu tone control |
 | **Reverb** | `decay` (0.1-2.0), `wet` (0.0-1.0) | Reverberație spațială |
 | **Tremolo** | `rate` (0.5-20.0), `depth` (0.0-1.0) | Modulare amplitudine (LFO) |
-
-## Cerințe Sistem
-
-- Python 3.7+
-- Windows/Linux/macOS
-- Placă de sunet pentru input/output live
 
 ## Dependințe
 
