@@ -5,6 +5,8 @@ Motor modular de procesare audio în timp real cu interfață grafică intuitiv�
 ## Instalare
 
 ```bash
+git clone https://github.com/cataliiin/SoundEngine.git
+
 # Creează un virtual environment
 python -m venv venv
 
